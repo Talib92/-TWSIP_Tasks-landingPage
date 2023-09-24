@@ -1,0 +1,170 @@
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+    margin: auto;
+    width: 70%;
+}
+
+.testimonial-text{
+    width: 80%;
+    line-height: 1.5;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.download-button {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.cards{
+    margin: 3%;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.carousle-item{
+    padding: 7% 10%;
+}
+
+.change-width{
+    margin-bottom: 15%;
+    font-size: 2.5rem;
+}
+
+.feature-icons{
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+.features-box{
+    text-align: center;
+}
+
+.feature-icons:hover{
+    color:#ff4c68;
+}
+
+.logo-press{
+    width: 15%;
+    padding: 30px;
+}
+
+.nav-item{
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+.rows{
+    padding-top: 5%;
+}
+
+.rotate-image{
+    position: relative;
+}
+
+.rotate{
+    position: absolute;
+    transform: rotate(25deg);
+    width: 60%;
+    right: 30%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem !important;
+    font-family:"Ubuntu";
+    font-weight: bold;
+}
+
+.pricing-column{
+    padding-top:5%;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.logos{
+    padding: 10px;
+}
+
+#title{
+    padding: 5% 15% 10%;
+    background-color: #ff4c68;
+    color: #fff;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    padding:7% 15%;
+    z-index: 1;
+}
+#testimonials{
+    padding: 5% 5% 0 5%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 60px;
+}
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+#cta{
+    font-family: "Montserrat";
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0 40px 0;
+}
+
+@media (max-width:991px){
+    .rotate{
+        position: static;
+        transform: rotate(0);
+        margin-top: 5%;
+    }
+    #title{
+        text-align: center;
+    }
+    #testimonials{
+        text-align: center;
+    }
+    .testimonoal-image{
+        text-align: center;
+    }
+    .testimonial-text{
+        text-align: center;
+    }
+    .logo-press{
+       width: 30%;
+    }
+}
